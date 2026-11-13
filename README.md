@@ -3,10 +3,10 @@
 An end-to-end R data pipeline and interactive _Shiny_ dashboard investigating the longest trophy drought in ACF Fiorentina's history (following the 2000/01 Coppa Italia).
 
 ## Live Dashboard
-* **Interactive App:** *(Insert your Posit Connect Cloud URL here after publishing)*
+* **Interactive App:** **[Fiorentina25ywoat App](https://lorenzofaraoni-fiorentina25ywoat.share.connect.posit.cloud)**
 
 ## Project Structure
-* `data_scraping&cleaning/`: Web scraping (`httr2`, `rvest`) and data wrangling (`dplyr`, `stringr`) scripts pulling historical standings, cup runs, and transfer market records from **[Transfermarkt](https://www.transfermarkt.com)**.
+* `data_scraping&cleaning/`: Web scraping (`httr2`, `rvest`) and data wrangling (`dplyr`, `stringr`) scripts pulling historical standings, cup runs, and transfer market records from *[Transfermarkt](https://www.transfermarkt.com)*.
 * `data/`: Raw and processed `.rds` datasets covering 25 complete seasons (`2001/02` – `2025/26`).
 * `app/`: Interactive Shiny web application (`bslib`, `plotly`, `reactable`) with `manifest.json` for reproducible cloud deployment.
 
